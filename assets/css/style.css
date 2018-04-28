@@ -29,3 +29,30 @@
 .navli a:hover {
     background-color: #111;
 }
+
+header {
+    background-color: #ffffff;
+    border-color: #cccccc;
+    color: #4aaaa5
+
+} 
+
+footer {
+    background-color: #666666;
+
+}
+
+h1, h2, h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #4aaaa5;
+    color: #777777
+
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    border-color: #dddddd;
+}
+
+
