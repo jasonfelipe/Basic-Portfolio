@@ -5,6 +5,21 @@
     clear: both;
 }
 
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  .content {
+    min-height: 100%;
+  }
+  .content-inside {
+    padding: 20px;
+    padding-bottom: 50px;
+  }
+  .footer {
+    height: 50px;
+    margin-top: -50px;
+  }
 .nav {
     list-style-type: none;
     margin: 0;
@@ -42,7 +57,9 @@ header {
 
 footer {
     background-color: #666666;
-
+    color: #4aaaa5;
+    text-align: center;
+    line-height: 50px;
 }
 
 h1, h2, h3 {
