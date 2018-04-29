@@ -51,8 +51,7 @@ header {
     float: left;
     background-color: #4aaaa5;
     border-color: #cccccc;
-    color: #ffffff
-
+    color: #ffffff;
 } 
 
 footer {
@@ -73,6 +72,20 @@ p {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #ffffff;
     border-color: #dddddd;
+    float: left;
 }
 
+img {
+    float: left;
+}
 
+section {
+    background: #ccc;
+    border-bottom: 1px solid #666666;
+    width: 100%;
+    margin: 0
+  }
+
+body {
+    background-image: url("../images/tic-tac-toe.png")
+}
