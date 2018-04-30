@@ -98,28 +98,31 @@ img {
 
 }
 
-.imagecontainer {
-    position: relative;
-    text-align: center;
-    color: #cccccc;
-    width: 100%;
-    font-size: 12pt;
-}
-
 .imagetitle {
     position: absolute;
-    width:100%;
-    right: 40px;
+    left: 7px;
+    color: white;
+    font-size: 50%;
+}
+
+.relative {
+    position: relative;
+
+}
+
+.relative img {
+    display: block;
+    width: auto;
+
 }
 
 span {   
-    color: white; 
     font: bold 24px/45px Helvetica, Sans-Serif; 
     letter-spacing: -1px;  
-    background: rgb(0, 0, 0); /* fallback color */
-    background: rgba(0, 0, 0, 0.7);
-
+    background: rgb(7, 141, 134); /* fallback color */
+    background: rgba(7, 190, 181, 0.7);
 }
+
 
 section {
     font-size:14pt;
@@ -151,6 +154,8 @@ body {
 
 #commentbox {
     font-size: 12pt;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 #submitbutton {
