@@ -1,3 +1,4 @@
+/* This is the Navbar */
 html, body {
     height: 100%;
     margin: 0;
@@ -34,11 +35,12 @@ html, body {
     text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
+/* Changes the link color to gray on hover */
 .navli a:hover {
     background-color: #e2deded3;
 }
 
+/* This is the website title */
 header {
     font-size: 18pt;
     padding: 14px 16px;
@@ -49,6 +51,7 @@ header {
     color: #ffffff;
 } 
 
+/* This is for the content section */
 section {
     margin: 0 auto;
     font-size:14pt;
@@ -58,12 +61,11 @@ section {
     overflow: auto;
 }
 
-footer {
-    border-top: 3px solid #4aaaa5;
-    background-color: #666666;
-    color: #ccc;
-    text-align: center;
-    line-height: 50px;
+.titleheader {
+    padding: 10px 12px;
+    border-bottom: 1px solid #ccc;
+    border-width: 80%;
+
 }
 
 h1, h2, h3 {
@@ -79,6 +81,17 @@ p {
     border-color: #dddddd;
 }
 
+
+/* Sticky Footer */
+footer {
+    border-top: 3px solid #4aaaa5;
+    background-color: #666666;
+    color: #ccc;
+    text-align: center;
+    line-height: 50px;
+}
+
+/* This edits the text in certain areas such as the "Contact" forms */
 #text {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #ffffff;
@@ -92,6 +105,7 @@ img {
 
 }
 
+/* Makes the pictures line up and go into two columns */
 #ulportfolio {
     padding:1em;
     margin:0 auto;
@@ -107,6 +121,7 @@ img {
 
 }
 
+/* This is for the titles for the pictures */
 .imagetitle {
     position: absolute;
     left: 7px;
@@ -132,9 +147,7 @@ span {
     background: rgba(7, 190, 181, 0.7);
 }
 
-
-
-
+/* For the Background */
 body {
     background-image: url("../images/tic-tac-toe.png")
 }
@@ -148,13 +161,7 @@ body {
     background-color: #ffffff;
 }
 
-.titleheader {
-    padding: 10px 12px;
-    border-bottom: 1px solid #ccc;
-    border-width: 80%;
-
-}
-
+/* Changes the font for the text area box in questions/comments section */
 #commentbox {
     font-size: 12pt;
     font-family: Arial, Helvetica, sans-serif;
@@ -166,6 +173,7 @@ body {
 
 }
 
+/* The emergency clearfix */
 .clearfix ::after {
     content: "";
     display: block;
