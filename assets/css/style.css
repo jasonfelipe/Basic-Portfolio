@@ -49,6 +49,15 @@ header {
     color: #ffffff;
 } 
 
+section {
+    margin: 0 auto;
+    font-size:14pt;
+    background: #ccc;
+    border-bottom: 1px solid #cccccc;
+    width: 960px;
+    overflow: auto;
+}
+
 footer {
     border-top: 3px solid #4aaaa5;
     background-color: #666666;
@@ -117,20 +126,14 @@ img {
 }
 
 span {   
-    font: bold 24px/45px Helvetica, Sans-Serif; 
+    font: bold 24px/45px Arial, Helvetica, Sans-Serif; 
     letter-spacing: -1px;  
     background: rgb(7, 141, 134); /* fallback color */
     background: rgba(7, 190, 181, 0.7);
 }
 
 
-section {
-    font-size:14pt;
-    background: #ccc;
-    border-bottom: 1px solid #cccccc;
-    width: 100%;
-    overflow: auto;
-  }
+
 
 body {
     background-image: url("../images/tic-tac-toe.png")
@@ -139,8 +142,8 @@ body {
 .wrap {
     border: 1px solid #ccc;
     margin: 25px auto;
-    padding: 10px;
-    width: 960px;
+    width: 920px;
+    padding: 20px;
     overflow: auto;
     background-color: #ffffff;
 }
