@@ -50,8 +50,9 @@ header {
 } 
 
 footer {
+    border-top: 3px solid #4aaaa5;
     background-color: #666666;
-    color: #4aaaa5;
+    color: #ccc;
     text-align: center;
     line-height: 50px;
 }
@@ -84,10 +85,18 @@ img {
 
 .portfolio {
     float: left;
-    width: 250px;
-    height: 250px;
     margin-right: 25px;
-    overflow: auto;
+    margin-bottom:25px;
+    width:auto;
+    height:auto;
+
+}
+
+.liportfolio {
+    display:block;
+    list-style-type: none;
+    display: inline;
+    vertical-align: bottom;
 
 }
 
@@ -133,3 +142,4 @@ body {
     display: block;
     clear: both;
 }
+
