@@ -80,6 +80,23 @@ p {
     border-color: #dddddd;
 }
 
+.linklist {
+    list-style-type: none;
+    overflow: hidden;
+
+
+}
+
+.links {
+    color: #666666;
+    margin: 3px;
+    text-decoration: none;
+
+}
+
+.links a:hover {
+    background-color: #e2deded3;
+}
 
 /* Sticky Footer */
 footer {
